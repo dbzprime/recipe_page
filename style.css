@@ -146,10 +146,10 @@ td:nth-child(2) {
 
 @font-face{
     font-family: Young Serif;
-    src:url('/assets/fonts/young-serif/YoungSerif-Regular.ttf');
+    src:url('/assets/fonts/young-serif/YoungSerif-Regular.ttf') format("truetype");
 }
 
 @font-face{
     font-family: Outfit-VariableFont;
-    src: url('/assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+    src: url('/assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format("truetype");
 }
