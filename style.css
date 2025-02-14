@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Container */
+.container {
+    background-color: white;
+    max-width: 600px;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    /* font-family: Young Serif;
+    font-weight: 600; */
+}
+
+
+.container h2{
+    color: hsl(14, 45%, 36%);
+    font-family: Young Serif;
+    font-weight: 800;
+}
+
+
+/* Recipe Image */
+.recipe-image {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+/* Content */
+.content {
+    padding: 20px;
+}
+
+/* Titles and Text */
+h1 {
+    font-size: 24px;
+    color: hsl(24, 5%, 18%);
+    font-family: Young Serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 18px;
+    color: hsl(24, 5%, 18%);
+    margin-top: 20px;
+}
+
+p {
+    font-size: 14px;
+    color: hsl(24, 5%, 40%);
+    font-family: Young Serif;
+}
+
+/* Preparation Time */
+.preparation-time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.preparation-time h3 {
+    color: hsl(332, 51%, 32%);
+    font-size: 16px;
+}
+
+.preparation-time li{
+    font-size: 14px;
+    padding: 5px 0;
+    
+}
+
+.preparation-time strong{
+    color:hsl(30, 10%, 34%)
+}
+
+/* Lists */
+
+.ingredients, .instructions{ 
+    padding: 0;   
+    
+}
+
+.ingredients li, .instructions li {
+    font-size: 14px;
+    padding: 5px 0;   
+}
+
+/* .instructions li strong {
+    color: hsl(14, 45%, 36%);
+} */
+
+/* Nutrition Section */
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.nutrition-table tr {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.nutrition-table td {
+    font-size: 14px;
+    color: hsl(24, 5%, 30%);
+    padding: 8px 0;
+}
+
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        max-width: 100%;
+        margin: 10px;
+    }
+}
